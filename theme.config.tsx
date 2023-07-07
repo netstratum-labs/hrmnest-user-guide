@@ -9,7 +9,23 @@ const config: DocsThemeConfig = {
       <meta property="og:title" content="" />
       <meta property="og:description" content="Nurture Your Most Valuable ASSET" />
     </>
-  )
+      ),
+      useNextSeoProps() {
+        return {
+          titleTemplate: '%s – HRMNest Documentation'
+        }
+      },
+      footer: {
+        text: (
+          <span>
+             {new Date().getFullYear()} © {' '}
+            <a href="https://docs.hrmnest.com/" target="_blank">
+               HRMNest Documentation
+            </a>
+            .
+          </span>
+        )
+      }
 
  
 }

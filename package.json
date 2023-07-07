@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/shuding/nextra-docs-template/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://docs.hrmnest.com/",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
